@@ -1,6 +1,6 @@
-* {
-  /* border: 1px solid black; */
-}
+/* *{
+    border: 1px solid violet;
+} */
 .nav {
   display: flex;
   align-items: center;
@@ -42,18 +42,21 @@ p {
 }
 .content2 {
   display: flex;
-  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  
 
-  justify-content: space-around;
-  padding-bottom: 30px;
 }
 .card {
-  height: 20%;
+  height: 5%;
+  width: 500px;
   /* width: 30%; */
   display: flex;
-
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  
+  
 }
 .footer {
   display: flex;
