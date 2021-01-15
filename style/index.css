@@ -1,1 +1,71 @@
-/* Add CSS styling here */
+/* *{
+    border: 1px solid violet;
+} */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1100px;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  background: linear-gradient(rgb(233, 47, 47), white, rgb(3, 217, 255));
+}
+header h1 {
+  display: flex;
+  width: 1100px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+.content1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+p {
+  width: 50%;
+}
+.content2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  
+
+}
+.card {
+  height: 5%;
+  width: 500px;
+  /* width: 30%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(150deg, yellow, teal, crimson, yellow, pink);
+  padding: 30px;
+}
+
+button {
+  margin: 20px;
+}
